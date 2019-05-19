@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>无尽光芒</title>
+    <link>https://ifhelen.github.io/</link>
+    <description>Recent content on 无尽光芒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 18 May 2019 15:01:41 +0800</lastBuildDate>
+    
+	<atom:link href="https://ifhelen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://ifhelen.github.io/about/</link>
+      <pubDate>Sat, 18 May 2019 15:01:41 +0800</pubDate>
+      
+      <guid>https://ifhelen.github.io/about/</guid>
+      <description>欢迎来到我的频道 我是sheil</description>
+    </item>
+    
+    <item>
+      <title>我的第一篇博文。</title>
+      <link>https://ifhelen.github.io/post/first/</link>
+      <pubDate>Fri, 18 May 2018 15:02:21 +0800</pubDate>
+      
+      <guid>https://ifhelen.github.io/post/first/</guid>
+      <description>这样就生成楼www/content/about.md，打开该文件可以看到以下信息： +++ date = &amp;quot;2015-11-15T10:42:51+08:00&amp;quot; draft = true title = &amp;quot;about&amp;quot; +++ 文件这样就生成楼www/content/about.md，打开该文件可以看到以下信息： +++ date = &amp;quot;2015-11-15T10:42:51+08:00&amp;quot; draft</description>
+    </item>
+    
+  </channel>
+</rss>
