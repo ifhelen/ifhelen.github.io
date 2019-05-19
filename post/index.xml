@@ -6,18 +6,18 @@
     <description>Recent content in Posts on 无尽光芒</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 18 May 2018 15:02:21 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 18 May 2019 15:02:21 +0800</lastBuildDate>
     
 	<atom:link href="https://ifhelen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>我的第一篇博文。</title>
+      <title>hugo&#43;mac搭建博客并部署github</title>
       <link>https://ifhelen.github.io/post/first/</link>
-      <pubDate>Fri, 18 May 2018 15:02:21 +0800</pubDate>
+      <pubDate>Sat, 18 May 2019 15:02:21 +0800</pubDate>
       
       <guid>https://ifhelen.github.io/post/first/</guid>
-      <description>这样就生成楼www/content/about.md，打开该文件可以看到以下信息： +++ date = &amp;quot;2015-11-15T10:42:51+08:00&amp;quot; draft = true title = &amp;quot;about&amp;quot; +++ 文件这样就生成楼www/content/about.md，打开该文件可以看到以下信息： +++ date = &amp;quot;2015-11-15T10:42:51+08:00&amp;quot; draft</description>
+      <description>1.mac环境安装hugo 安装步骤参考： hugo官网-安装Hugo 我用的是Tarball方式: 在浏览器中打开https://github.com/gohugoio/hugo/releases。 通过向下</description>
     </item>
     
   </channel>
