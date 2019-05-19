@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-cn" >
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  
+  <meta name="author"
+        content="Zeuk"/>
+
+  
+  <meta name="description" content="1.mac环境安装hugo 安装步骤参考： hugo官网-安装Hugo 我用的是Tarball方式: 在浏览器中打开https://github.com/gohugoio/hugo/releases。 通过向下"/>
+  
+
+  
+  
+  <meta name="keywords" content="Hugo, cher, bolg"/>
+  
+
+  
+  <link rel="canonical" href="https://ifhelen.github.io/post/1/"/>
+
+  
+
+  <title>hugo&#43;mac搭建博客并部署github &middot; 无尽光芒</title>
+
+  <link rel="shortcut icon" href="https://ifhelen.github.io/images/favicon.ico"/>
+  <link rel="stylesheet" href="https://ifhelen.github.io/css/animate.min.css"/>
+  <link rel="stylesheet" href="https://ifhelen.github.io/css/remixicon.css"/>
+  <link rel="stylesheet" href="https://ifhelen.github.io/css/zozo.css"/>
+  <link rel="stylesheet" href="https://ifhelen.github.io/css/highlight.css"/>
+
+  
+  
+</head>
+
+<body>
+<div class="main animated">
+  <div class="nav_container animated fadeInDown">
+  <div class="site_nav" id="site_nav">
+    <ul>
+      
+      <li>
+        <a href="/">home</a>
+      </li>
+      
+      <li>
+        <a href="/post/">archive</a>
+      </li>
+      
+      <li>
+        <a href="/tags/">tags</a>
+      </li>
+      
+      <li>
+        <a href="/about/">about</a>
+      </li>
+      
+    </ul>
+  </div>
+  <div class="menu_icon">
+    <a id="menu_icon"><i class="remixicon-links-line"></i></a>
+  </div>
+</div>
+
+  <div class="header animated fadeInDown">
+  <div class="site_title_container">
+    <div class="site_title">
+      <h1>
+        <a href="https://ifhelen.github.io/">
+          <span>无尽光芒</span>
+          <img src="https://ifhelen.github.io/images/dog.jpeg"/>
+        </a>
+      </h1>
+    </div>
+    <div class="description">
+      <p class="sub_title">X&#39;s bolg 🌈</p>
+      <div class="my_socials">
+        
+        
+        <a href="https://github.com/ifhelen" title="github" target="_blank"><i class="remixicon-github-fill"></i></a>
+        
+        
+        
+        <a href="https://weibo.com/u/1615375811" title="weibo" target="_blank"><i class="remixicon-weibo-fill"></i></a>
+        
+        
+        <a href="https://ifhelen.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i class="remixicon-rss-fill"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="content">
+    <div class="post_page">
+      <div class="post animated fadeInDown">
+        <div class="post_title post_detail_title">
+          <h2><a href='/post/1/'>hugo&#43;mac搭建博客并部署github</a></h2>
+          <span class="date">2019.05.18</span>
+        </div>
+        <div class="post_content markdown">
+
+<h3 id="1-mac环境安装hugo">1.mac环境安装hugo</h3>
+
+<p>安装步骤参考：</p>
+
+<h5 id="hugo官网-安装hugo-https-gohugo-io-getting-started-installing"><a href="https://gohugo.io/getting-started/installing">hugo官网-安装Hugo</a></h5>
+
+<p>我用的是Tarball方式:</p>
+
+<blockquote>
+<p>在浏览器中打开<a href="https://github.com/gohugoio/hugo/releases。">https://github.com/gohugoio/hugo/releases。</a></p>
+
+<p>通过向下滚动查找当前版本并查找“最新版本”的绿色标记。</p>
+
+<p>下载适用于Mac的当前tarball。名称将是，版本号hugo_X.Y_osx-64bit.tgz在哪里X.YY。</p>
+
+<p>默认情况下，tarball将保存到您的~/Downloads目录中。</p>
+</blockquote>
+
+<p>在~/Downloads找到 hugo_0.55.5_macOS-64bit.tar.gz 解压为 hugo_0.55.5_macOS-64bit</p>
+
+<p>将 hugo_0.55.5_macOS-64bit 复制到/usr/local/bin/目录中</p>
+
+<p>打开终端输入 hugo version</p>
+
+<pre><code>  $ hugo version
+  Hugo Static Site Generator v0.37.1 darwin/amd64 BuildDate
+</code></pre>
+
+<p>成功。</p>
+
+<h3 id="2-在本地搭建hugo博客">2.在本地搭建hugo博客</h3>
+
+<h4 id="创建新站点">创建新站点:</h4>
+
+<pre><code>$ hugo new site blog //*创建文件名为blog的新站点 （生成blog文件在/user/path/to/site下）
+$ cd blog   //进入该文件
+$ tree blog //显示blog目录结构
+# 目录结构
+#blog
+#├── archetypes
+#│   └── default.md
+#├── config.toml //是配置文件，在里面可以定义博客地址、构建配置、标题、导航栏等等
+#├── content //content 是博客文章的目录。
+#├── data
+#├── layouts
+#├── static
+#└── themes //是主题目录，可以去 themes.gohugo.io 下载喜欢的主题。
+
+
+</code></pre>
+
+<h4 id="下载喜欢的主题">下载喜欢的主题:</h4>
+
+<p><a href="themes.gohugo.io">themes.gohugo.io</a></p>
+
+<p>也是下载到~/Downloads下的zip主题文件
+解压
+放在blog下的themes里</p>
+
+<p>（主题包里一般会有demo模块 可复制里面的config.toml到blog下 更改配置文件以进行主题的个性化设置）</p>
+
+<h4 id="发布文章">发布文章:</h4>
+
+<pre><code>$ hugo new post/my-first-post.md 
+</code></pre>
+
+<p>会在blog/content/post (post表示文章目录总)生成md后缀的文件</p>
+
+<p>以后主要在md文件里进行markdown格式的文章编辑啦～（我用的是intellij idea编辑器）</p>
+
+<h4 id="本地浏览器预览">本地浏览器预览:</h4>
+
+<pre><code>$ hugo server -D //or
+$ hugo server --theme=hugo-theme-zozo-master //--theme指定你的主题
+#Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+
+</code></pre>
+
+<p>打开<a href="http://localhost:1313/">http://localhost:1313/</a>  就可以在本地打开你的blog了</p>
+
+<h3 id="3-把本地hugo部署到github上">3.把本地hugo部署到github上</h3>
+
+<h4 id="github新建一个项目">github新建一个项目:</h4>
+
+<ul>
+<li>new respository 新建一个站点
+name 写 自己定义.github.io
+确定
+<img src="http://ww3.sinaimg.cn/large/006tNc79ly1g36lj4fn0rj30cc08igm5.jpg" alt="cmd-markdown-logo" /></li>
+</ul>
+
+<h4 id="把blog构建为一个静态包">把blog构建为一个静态包</h4>
+
+<p>打开终端</p>
+
+<pre><code> $ hugo --theme=hugo-theme-zozo-master --baseUrl=&quot;https://XXX.github.io/&quot; //--baseUrl是刚在github上新建项目的name *
+</code></pre>
+
+<p>以上指令会在blog下生成一个public静态资源包</p>
+
+<h4 id="将public包上传到新建的respository里">将public包上传到新建的respository里</h4>
+
+<p>终端进入blog/public</p>
+
+<pre><code> $ git init
+ $ git remote add origin https://github.com/XXX/XXX.github.io.git
+ $ git add -A
+ $ git commit -m &quot;first commit&quot;
+ $ git push -u origin master
+</code></pre>
+
+<p>浏览器打开：
+ ifhelen.github.io</p>
+
+<p>至此 博客搭建完成！🎉</p>
+</div>
+        <div class="post_footer">
+          
+          <div class="meta">
+            <div class="info">
+              <span class="field tags">
+                <i class="remixicon-stack-line"></i>
+                
+                <a href="https://ifhelen.github.io/tags/hugo/">hugo</a>
+                
+              </span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+      
+<div class="doc_comments">
+  <div class="comments_block_title">发表评论</div>
+  <div id="vcomments"></div>
+</div>
+
+<link rel="stylesheet" href="https://ifhelen.github.io/css/comments.css"/>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+<script type="text/javascript">
+new Valine({
+  el: '#vcomments',
+  appId: 'yjISRHoTgwyWf8RR0XvUjNdd-gzGzoHsz',
+  appKey: 'tlswguNn2kJGqj5XHjDfpW60',
+  placeholder: ' ',
+  visitor: 'true',
+})
+</script>
+
+      
+    </div>
+  </div>
+  <a id="back_to_top" href="#" class="back_to_top"><span>△</span></a>
+</div>
+<footer class="footer">
+  <div class="powered_by">
+    <a href="http://www.gohugo.io/">Powered by Hugo |</a>
+    <a href="https://zeuk.me">Theme - Zeuk</a>
+  </div>
+
+  <div class="footer_slogan">
+    <span>KEEP CALM AND CARRY ON</span>
+  </div>
+</footer>
+
+
+
+<script src="https://ifhelen.github.io/js/jquery-3.3.1.min.js"></script>
+<script src="https://ifhelen.github.io/js/zozo.js"></script>
+<script src="https://ifhelen.github.io/js/highlight.pack.js"></script>
+<link  href="https://ifhelen.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://ifhelen.github.io/js/fancybox.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad()</script>
+
+
+  <script type="text/javascript" async src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
+
+
+
+
+
+
+</body>
+</html>

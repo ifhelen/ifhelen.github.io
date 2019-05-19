@@ -6,27 +6,36 @@
     <description>Recent content on 无尽光芒</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 18 May 2019 15:02:21 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2019 15:31:10 +0800</lastBuildDate>
     
 	<atom:link href="https://ifhelen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>gitHub使用记录（未完）</title>
+      <link>https://ifhelen.github.io/post/2/</link>
+      <pubDate>Sun, 19 May 2019 15:31:10 +0800</pubDate>
+      
+      <guid>https://ifhelen.github.io/post/2/</guid>
+      <description>git和svn区别？ git使用 把远程仓库clone到本地 $ git clone 仓库地址 本地修改后先add $ git add . //提交全部 $ git add XX XX //提交某个 再提交 $ git commit -m &amp;quot;&amp;quot; //提交 -m 注释 再push $ git push origin master //push到主干</description>
+    </item>
+    
+    <item>
       <title>hugo&#43;mac搭建博客并部署github</title>
-      <link>https://ifhelen.github.io/post/first/</link>
+      <link>https://ifhelen.github.io/post/1/</link>
       <pubDate>Sat, 18 May 2019 15:02:21 +0800</pubDate>
       
-      <guid>https://ifhelen.github.io/post/first/</guid>
+      <guid>https://ifhelen.github.io/post/1/</guid>
       <description>1.mac环境安装hugo 安装步骤参考： hugo官网-安装Hugo 我用的是Tarball方式: 在浏览器中打开https://github.com/gohugoio/hugo/releases。 通过向下</description>
     </item>
     
     <item>
       <title></title>
       <link>https://ifhelen.github.io/about/</link>
-      <pubDate>Sat, 18 May 2019 15:01:41 +0800</pubDate>
+      <pubDate>Thu, 14 Jun 2012 15:01:41 +0800</pubDate>
       
       <guid>https://ifhelen.github.io/about/</guid>
-      <description>记住今天。</description>
+      <description>java web 分布式 架构 小程序 女🧚‍</description>
     </item>
     
   </channel>

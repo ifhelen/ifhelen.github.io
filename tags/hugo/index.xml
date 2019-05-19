@@ -13,10 +13,10 @@
     
     <item>
       <title>hugo&#43;mac搭建博客并部署github</title>
-      <link>https://ifhelen.github.io/post/first/</link>
+      <link>https://ifhelen.github.io/post/1/</link>
       <pubDate>Sat, 18 May 2019 15:02:21 +0800</pubDate>
       
-      <guid>https://ifhelen.github.io/post/first/</guid>
+      <guid>https://ifhelen.github.io/post/1/</guid>
       <description>1.mac环境安装hugo 安装步骤参考： hugo官网-安装Hugo 我用的是Tarball方式: 在浏览器中打开https://github.com/gohugoio/hugo/releases。 通过向下</description>
     </item>
     

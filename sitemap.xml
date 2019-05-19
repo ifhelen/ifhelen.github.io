@@ -4,13 +4,30 @@
   
   <url>
     <loc>https://ifhelen.github.io/post/</loc>
-    <lastmod>2019-05-18T15:02:21+08:00</lastmod>
+    <lastmod>2019-05-19T15:31:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ifhelen.github.io/tags/</loc>
-    <lastmod>2019-05-18T15:02:21+08:00</lastmod>
+    <lastmod>2019-05-19T15:31:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ifhelen.github.io/tags/git/</loc>
+    <lastmod>2019-05-19T15:31:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ifhelen.github.io/post/2/</loc>
+    <lastmod>2019-05-19T15:31:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ifhelen.github.io/</loc>
+    <lastmod>2019-05-19T15:31:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -21,19 +38,13 @@
   </url>
   
   <url>
-    <loc>https://ifhelen.github.io/post/first/</loc>
+    <loc>https://ifhelen.github.io/post/1/</loc>
     <lastmod>2019-05-18T15:02:21+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ifhelen.github.io/</loc>
-    <lastmod>2019-05-18T15:02:21+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ifhelen.github.io/about/</loc>
-    <lastmod>2019-05-18T15:01:41+08:00</lastmod>
+    <lastmod>2012-06-14T15:01:41+08:00</lastmod>
   </url>
   
   <url>
